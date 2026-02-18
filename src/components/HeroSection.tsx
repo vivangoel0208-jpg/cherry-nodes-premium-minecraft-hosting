@@ -11,8 +11,6 @@ const HeroSection = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
-      {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 bg-black/30" />
 
       <div className="relative z-10 container mx-auto px-4 text-center">
         <motion.div
